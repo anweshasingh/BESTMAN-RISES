@@ -1,13 +1,13 @@
-class Drop{
-	  constructor(x,y){
-		    var options={
-				friction:0.001,
-				restitution:0.1,
-				isStatic:false
-            		
-			}
-			this.r=3;
+class Drop {
+    constructor(x,y) {
+        var options = {
+            friction:0.001,
+			restitution:0.1,
+			isStatic:false
+        }
+
 			this.body=Bodies.circle(x, y, 3, options)
+			this.r=3;
 			World.add(world, this.body);
 			}
 
@@ -22,5 +22,4 @@ class Drop{
 				Matter.Body.setPosition(this.body,{x:random(0,400),y:random(0,400)});
 			}
 	  }
-
-}
+    }
