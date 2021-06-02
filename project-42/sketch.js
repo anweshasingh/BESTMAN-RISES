@@ -18,8 +18,8 @@ var thunderCreatedFrame=0;
 function preload(){
     thunder1 = loadImage("images/thunderbolt/1.png"); 
     thunder2 = loadImage("images/thunderbolt/2.png"); 
-    thunder3 = loadImage("images/thunderbolt/3.png"); thunder4 = 
-    loadImage("images/thunderbolt/4.png");
+    thunder3 = loadImage("images/thunderbolt/3.png");
+    thunder4 = loadImage("images/thunderbolt/4.png");
 
     batAnimation = loadAnimation("bat/bat1.png","bat/bat2.png","bat/bat3.png",
                         "bat/bat4.png","bat/bat5.png","bat/bat6.png",
